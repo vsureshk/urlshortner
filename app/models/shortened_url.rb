@@ -1,5 +1,5 @@
 class ShortenedUrl < ApplicationRecord
-  has_many :shortened_url_analytics
+  has_many :shortened_url_analytics, dependent: :destroy
 
   # UNIQUE ID IS THE URL NAME THAT WILL APPEAR LIKE: http://localhost:3000/s3f1n
   UNIQUE_ID_LENGTH = 5

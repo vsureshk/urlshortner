@@ -1,0 +1,145 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/home/local/PAYODA/suresh.k/Downloads/i/spritle/url_shortner/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/home/local/PAYODA/suresh.k/Downloads/i/spritle/url_shortner/app/helpers/shortened_urls_helper.rb": [
+        1,
+        null
+      ],
+      "/home/local/PAYODA/suresh.k/Downloads/i/spritle/url_shortner/app/models/shortened_url.rb": [
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null
+      ],
+      "/home/local/PAYODA/suresh.k/Downloads/i/spritle/url_shortner/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/home/local/PAYODA/suresh.k/Downloads/i/spritle/url_shortner/app/models/shortened_url_analytic.rb": [
+        1,
+        1,
+        null
+      ],
+      "/home/local/PAYODA/suresh.k/Downloads/i/spritle/url_shortner/app/mailers/application_mailer.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/home/local/PAYODA/suresh.k/Downloads/i/spritle/url_shortner/app/controllers/shortened_urls_controller.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "/home/local/PAYODA/suresh.k/Downloads/i/spritle/url_shortner/app/controllers/application_controller.rb": [
+        0,
+        0
+      ],
+      "/home/local/PAYODA/suresh.k/Downloads/i/spritle/url_shortner/app/channels/application_cable/channel.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/home/local/PAYODA/suresh.k/Downloads/i/spritle/url_shortner/app/channels/application_cable/connection.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/home/local/PAYODA/suresh.k/Downloads/i/spritle/url_shortner/app/jobs/application_job.rb": [
+        0,
+        0
+      ]
+    },
+    "timestamp": 1554214810
+  }
+}
