@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  clicks_count: 
+  ip_address: 
+  country: MyString
+
+two:
+  clicks_count: 
+  ip_address: 
+  country: MyString

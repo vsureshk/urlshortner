@@ -1,0 +1,12 @@
+<p id="notice"><%= notice %></p>
+<h2>Welcome to urlshortner.com</h2>
+<%= form_with scope: :shortened_url, url: shortened_urls_create_path, local: false do |form| %>
+  <p>
+    <%= form.label :original_url, 'Please enter your URL here'%><br>
+    <%= form.text_field :original_url %>
+    <%= form.submit 'SHORTEN'%>
+  </p>
+<% end %>
+
+<p>Here's your short URL!</p>
+<div id="shorten-url"></div>

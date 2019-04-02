@@ -1,0 +1,10 @@
+<h2>Analytics</h2>
+<% @urls.each do |url| %>
+  <b><%= url.original_url %></b><br>
+  <%host = request.host_with_port%>
+  <%= 'http://' + host + '/' + url.short_url %>
+  <br/><br/>
+  Total clicks: <%= url.clicks_count %><br/>
+  Top countries: <%= url.shortened_url_analytics.map(&:country).join(', ') %>
+  <hr>
+<% end %>
