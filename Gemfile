@@ -42,9 +42,10 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'shoulda-matchers'
   gem 'database_cleaner'
-  gem 'factory_bot_rails'
+  gem 'factory_bot_rails','4.8.2'
   gem 'faker'
   gem 'simplecov'
+  gem 'rails-controller-testing'
 end
 
 group :development do

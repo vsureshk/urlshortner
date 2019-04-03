@@ -9,8 +9,8 @@ class ShortenedUrlsController < ApplicationController
     if (@url.created_at..@url.expiry_date).include?(DateTime.now)
      @url.increment!(:clicks_count)
      analytics = @url.shortened_url_analytics.new
-     analytics.ip_address = '61.12.43.186'
-     analytics.country = 'IN'
+     analytics.ip_address = request.ip || '61.12.43.186'
+     analytics.country = request.location.country || 'India'
      analytics.save
      redirect_to @url.sanitize_url
     else

@@ -20,13 +20,14 @@ RSpec.describe ShortenedUrl, :type => :model do
   end
 
   context "Validations" do
+    it { should validate_uniqueness_of(:original_url) }
     it { should validate_presence_of(:original_url) }
   end
 
-  #  let!(:shortened_url) { FactoryBot.create(:shortened_url) }
+   let!(:shortened_url) { FactoryBot.create(:shortened_url) }
 
-  #   it "is valid with valid attributes" do
-  #     expect(shortened_url).to be_valid
-  #   end
+    it "is valid with valid attributes" do
+      expect(shortened_url).to be_valid
+    end
 
 end
